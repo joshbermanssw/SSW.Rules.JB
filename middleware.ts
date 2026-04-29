@@ -1,7 +1,7 @@
 import * as appInsights from "applicationinsights";
 import { NextRequest, NextResponse } from "next/server";
 import { getAuth0 } from "./lib/auth0";
-import redirectMappingRaw from "./redirects.json";
+const redirectMappingRaw: Record<string, string> = {};
 
 export const runtime = "nodejs";
 

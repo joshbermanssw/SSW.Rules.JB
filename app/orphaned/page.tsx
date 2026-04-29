@@ -3,7 +3,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import { Section } from "@/components/layout/section";
 import { OrphanedRulesData } from "@/models/OrphanedRule";
 import { Rule } from "@/models/Rule";
-import orphanedRulesData from "@/orphaned_rules.json";
+const orphanedRulesData: OrphanedRulesData = [];
 import { siteUrl } from "@/site-config";
 import client from "@/tina/__generated__/client";
 import OrphanedClientPage from "./client-page";

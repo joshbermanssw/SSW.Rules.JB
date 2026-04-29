@@ -1,5 +1,5 @@
 import React from "react";
-import categoryTitleIndex from "@/category-uri-title-map.json";
+const categoryTitleIndex: { categories?: Record<string, unknown> } = {};
 import { Section } from "@/components/layout/section";
 import { extractBodyPreview } from "@/lib/bodyUtils";
 import { siteUrl } from "@/site-config";
