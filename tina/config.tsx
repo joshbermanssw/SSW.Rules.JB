@@ -16,6 +16,12 @@ export const config = defineConfig({
   token: token,
   branch: branch,
   localContentPath: localContentPath,
+  tinaioConfig: {
+    contentApiUrlOverride: "https://berman-josh-v2-content.tinajs.dev",
+    identityApiUrlOverride: "https://berman-josh-v2-identity.tinajs.dev",
+    assetsApiUrlOverride: "https://assets-local-berman-josh-v2.tinajs.dev",
+    frontendUrlOverride: "http://localhost:3002",
+  },
   media: {
     // If you wanted cloudinary do this
     // loadCustomStore: async () => {
