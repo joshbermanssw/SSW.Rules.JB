@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.ssw.com.au/rules
+
+# Sitemaps
+Sitemap: https://www.ssw.com.au/rules/sitemap-index.xml
