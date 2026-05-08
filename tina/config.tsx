@@ -19,7 +19,7 @@ export const config = defineConfig({
   tinaioConfig: {
     contentApiUrlOverride: "https://berman-josh-v2-content.tinajs.dev",
     identityApiUrlOverride: "https://berman-josh-v2-identity.tinajs.dev",
-    assetsApiUrlOverride: "https://assets-local-berman-josh-v2.tinajs.dev",
+    assetsApiUrlOverride: "https://assets-api-local-berman-josh-v2.tinajs.dev",
     frontendUrlOverride: "http://localhost:3002",
   },
   media: {
